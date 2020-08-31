@@ -1,8 +1,10 @@
-package kapadokia.nyandoro.gadsleadersboard;
+package kapadokia.nyandoro.gadsleadersboard.ui.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import kapadokia.nyandoro.gadsleadersboard.R;
 
 public class MainActivity extends AppCompatActivity {
 
