@@ -5,4 +5,5 @@
 
     <string name="hours_fragment">Hours</string>
     <string name="skilliq_fragment">SkillIq</string>
+    <string name="hours_image">hours image</string>
 </resources>

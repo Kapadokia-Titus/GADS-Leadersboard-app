@@ -2,11 +2,11 @@ package kapadokia.nyandoro.gadsleadersboard.repositories;
 
 import androidx.lifecycle.MutableLiveData;
 
-import kapadokia.nyandoro.gadsleadersboard.data.model.Hour;
-import kapadokia.nyandoro.gadsleadersboard.data.model.Skilliq;
+import kapadokia.nyandoro.gadsleadersboard.data.datastates.HoursDataState;
+import kapadokia.nyandoro.gadsleadersboard.data.datastates.SkillIqDataState;
 
 public interface GadsRepo {
 
-    MutableLiveData<Hour> getAllHours();
-    MutableLiveData<Skilliq> getAllSkillIq();
+    MutableLiveData<HoursDataState> getAllHours();
+    MutableLiveData<SkillIqDataState> getAllSkillIq();
 }
